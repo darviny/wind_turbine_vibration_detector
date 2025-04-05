@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Usage:
-    python evaluate_ocsvm_simple.py <model_file> <scaler_file> <normal_data.csv> <anomaly1.csv> <anomaly2.csv>
+    python evaluate_ocsvm.py <model_file> <scaler_file> <normal_data.csv> <anomaly1.csv> <anomaly2.csv>
 """
 
 import pandas as pd
