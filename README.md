@@ -62,7 +62,7 @@ python main.py false
 
 2. Extract features from the collected data:
 ```bash
-python extract_features.py data/sensor_data_normal.csv data/features_normal.csv 5 3.5
+python extract_features.py data/sensor_data_normal.csv data/features_normal.csv 5 6.6
 ```
 
 3. Train the OCSVM model:
