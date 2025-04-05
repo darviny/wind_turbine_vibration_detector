@@ -63,7 +63,7 @@ def main():
             
         i2c = board.I2C()
         sensor_device = adafruit_mpu6050.MPU6050(i2c)
-        buffer = sensor.SensorBuffer(window_size=3.5) # 3.5 seconds is the periodicity of the turbine, from eyeballing the data
+        buffer = sensor.SensorBuffer(window_size=6.6) # 6.6 seconds is the periodicity of the turbine
         svm_detector = anomaly_detector.OneClassSVMDetector('models/model_svm.pkl', sensitivity, threshold)
 
         print("\nMonitoring!")
