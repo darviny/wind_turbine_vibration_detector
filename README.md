@@ -1,6 +1,6 @@
 # Wind Turbine Vibration Detector
 
-![Alt text](image_9966.jpg)
+![Alt text](img_9966.jpeg)
 A real-time vibration monitoring and anomaly detection system for wind turbines using MPU6050 sensors and machine learning.
 
 ## Overview
