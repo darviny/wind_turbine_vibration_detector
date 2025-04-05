@@ -13,20 +13,12 @@ This project implements a vibration monitoring system that uses an MPU6050 senso
 - Anomaly detection using One-Class SVM
 - LCD display for real-time monitoring
 - SMS alerts for detected anomalies
-- Data logging and analysis capabilities
 
 ## Hardware Requirements
 
-- Raspberry Pi (or similar single-board computer)
+- Raspberry Pi
 - MPU6050 sensor
 - I2C LCD display (16x2)
-- Jumper wires
-- Power supply
-
-## Software Requirements
-
-- Python 3.7+
-- Dependencies listed in `requirements.txt`
 
 ## Installation
 
@@ -110,11 +102,3 @@ Data is collected at 5Hz and processed in 3.5-second windows (matching the turbi
 The system provides two types of alerts:
 1. LCD Display: Shows real-time sensor readings and anomaly alerts
 2. SMS Alerts: Sends notifications when anomalies are detected (with a 10-second cooldown period)
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
