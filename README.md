@@ -1,4 +1,5 @@
 # Wind Turbine Vibration Detector
+# Team members: Jordan Craig (Hardware), Chun Ho Law (Hardware), Narges Ehdaei (Machine Learning, Hardware-Software Integration), Darvin Yeung (Software)
 
 ![Alt text](IMG_9966.jpeg)
 A real-time vibration monitoring and anomaly detection system for wind turbines using MPU6050 sensors and machine learning.
