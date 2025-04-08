@@ -97,7 +97,7 @@ The system collects the following sensor data:
 - Gyroscope (X, Y, Z axes)
 - Temperature
 
-Data is collected at 5Hz and processed in 3.5-second windows (matching the turbine's periodicity).
+Data is collected at 5Hz and processed in 6.6-second windows.
 
 ## Alert System
 
